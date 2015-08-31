@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WalmartShopping]" parallel="none">
+  <test name="SearchProduct(failed)" parallel="none">
+    <classes>
+      <class name="com.testscripts.searchAndOrder">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openSite"/>
+          <include name="launch"/>
+          <include name="searchandorder" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testscripts.searchAndOrder -->
+    </classes>
+  </test> <!-- SearchProduct(failed) -->
+</suite> <!-- Failed suite [WalmartShopping] -->
